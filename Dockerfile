@@ -12,4 +12,4 @@ RUN /bin/sh -c pip3 install -r https://raw.githubusercontent.com/Randi356/Vegeta
 
 EXPOSE 80 443
 
-CMD ["python3", "-m", "userbot"]
+CMD ["bash", "start"]
